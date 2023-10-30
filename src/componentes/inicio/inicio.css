@@ -73,6 +73,16 @@
 
 /*Definições Gerais*/
 
+#universal {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(1, 16, 19, 1) 100%
+  );
+}
+
 #hero {
   background: rgb(2, 0, 36);
   background: linear-gradient(
@@ -160,29 +170,20 @@
   padding-left: -5px;
 }
 
-#resultados-1 {
-  display: flex;
+#results-1 {
   width: 100%;
-  gap: 2rem;
+  gap: 1rem;
   padding: -10px -10px 0.7rem 1.8rem;
-
-  margin-left: 63px;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(1, 16, 19, 1) 100%
-  );
+  margin-left: 32px;
 }
 
-#resultados-2 {
-  display: flex;
-  gap: 3.7rem;
+#results-2 {
+  gap: 3.5rem;
   font-weight: bold;
   font-size: 1.5em;
-  margin-right: 90px;
-  padding-right: -29px;
+  margin-right: 29px;
+  padding-right: -20px;
+  text-decoration: underline 5px;
   color: rgb(255, 255, 255);
   color: linear-gradient(
     90deg,
@@ -190,263 +191,38 @@
     rgba(219, 219, 219, 1) 35%,
     rgba(101, 113, 115, 1) 100%
   );
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(1, 16, 19, 1) 100%
-  );
-  text-decoration: underline 5px;
-}
-
-#demp {
-  /*background-color: transparent;*/
-  border: 0;
-}
-
-#emp {
-  /*background-color: transparent;*/
-  padding-left: 0px;
-  /*margin-left: 0px;*/
-  margin-right: -0px;
-  border: 0;
 }
 
 #paiat {
-  /*padding-right: 40px;*/
-  padding-left: 34px;
-  border: 0;
-}
-
-#money {
-  padding-right: 0px;
-  margin-right: 10px;
-}
-
-#div {
-  color: #fff;
-}
-
-#solucoes {
-  color: rgb(255, 255, 255);
-  color: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(219, 219, 219, 1) 35%,
-    rgba(101, 113, 115, 1) 100%
-  );
-}
-
-#solucoesM {
-  color: rgb(255, 255, 255);
-  color: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(219, 219, 219, 1) 35%,
-    rgba(101, 113, 115, 1) 100%
-  );
-}
-
-#solucoes h1 {
-  color: rgb(255, 255, 255);
-  color: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(219, 219, 219, 1) 35%,
-    rgba(101, 113, 115, 1) 100%
-  );
-}
-
-#p1 {
-  border: 0;
-}
-
-#solucoes1 {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(1, 16, 19, 1) 100%
-  );
-  color: rgb(255, 255, 255);
-  color: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(219, 219, 219, 1) 35%,
-    rgba(101, 113, 115, 1) 100%
-  );
-}
-
-#solucoes2 {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(1, 16, 19, 1) 100%
-  );
-  color: rgb(255, 255, 255);
-  color: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(219, 219, 219, 1) 35%,
-    rgba(101, 113, 115, 1) 100%
-  );
-}
-
-#solucoes3 {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(1, 16, 19, 1) 100%
-  );
-  color: rgb(255, 255, 255);
-  color: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(219, 219, 219, 1) 35%,
-    rgba(101, 113, 115, 1) 100%
-  );
-}
-
-#i2 {
-  border: 0;
-}
-
-#imagem1 {
-  border: 0;
-  position: relative;
-  z-index: 2;
-  margin-bottom: 20px;
-}
-
-#imagem2 {
-  border: 0px;
-  position: relative;
-  z-index: 2;
-  margin-bottom: 20px;
-}
-
-#imagem3 {
-  border: 0;
-  position: relative;
-  z-index: 2;
-  margin-bottom: 20px;
-}
-
-#over1 {
-  border: 0;
-}
-
-#right-border-image {
-  background: #fff;
-  width: 553px;
-  height: 350px;
-  position: relative;
-  top: -417px;
-  left: 15px;
-}
-
-#right-border-image2 {
-  background: #fff;
-  width: 553px;
-  height: 350px;
-  position: relative;
-  top: -417px;
-  left: 15px;
-}
-
-#ts1 {
-  padding-top: -150px;
-  position: relative;
-}
-
-#left-border-image {
-  background: #fff;
-  width: 553px;
-  height: 359px;
-  position: relative;
-  top: -427px;
-  right: 35px;
+  padding-left: 30px;
 }
 
 #divider {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(1, 16, 19, 1) 100%
+  );
   color: rgb(255, 255, 255);
   color: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 0%,
     rgba(219, 219, 219, 1) 35%,
     rgba(101, 113, 115, 1) 100%
-  );
-}
-
-#divider1 {
-  color: rgb(255, 255, 255);
-  color: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(219, 219, 219, 1) 35%,
-    rgba(101, 113, 115, 1) 100%
-  );
-  margin-top: -310px;
-}
-
-#divider2 {
-  color: rgb(255, 255, 255);
-  color: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(219, 219, 219, 1) 35%,
-    rgba(101, 113, 115, 1) 100%
-  );
-  margin-top: -310px;
-}
-
-#botaoS-1 {
-  background: rgb(199, 180, 150);
-  background: linear-gradient(
-    90deg,
-    rgba(199, 180, 150, 1) 0%,
-    rgba(231, 212, 202, 1) 35%,
-    rgba(210, 198, 159, 1) 100%
-  );
-}
-
-#botaoS-2 {
-  background: rgb(199, 180, 150);
-  background: linear-gradient(
-    90deg,
-    rgba(199, 180, 150, 1) 0%,
-    rgba(231, 212, 202, 1) 35%,
-    rgba(210, 198, 159, 1) 100%
-  );
-}
-
-#botaoS-3 {
-  background: rgb(199, 180, 150);
-  background: linear-gradient(
-    90deg,
-    rgba(199, 180, 150, 1) 0%,
-    rgba(231, 212, 202, 1) 35%,
-    rgba(210, 198, 159, 1) 100%
-  );
-}
-
-#botaoS-4 {
-  background: rgb(199, 180, 150);
-  background: linear-gradient(
-    90deg,
-    rgba(199, 180, 150, 1) 0%,
-    rgba(231, 212, 202, 1) 35%,
-    rgba(210, 198, 159, 1) 100%
   );
 }
 
 /*BreakPoints */
+
+@media (max-width: 826px) {
+  #money,
+  #emp,
+  #paiat {
+    display: block;
+  }
+}
 
 /*Tablets */
 @media (min-width: 767.98px) and (max-width: 991.98px) {
@@ -456,174 +232,10 @@
     margin-left: 405px;
     padding-left: 10px;
   }
-
-  #resultados-1 {
-    /*gap: 1rem;*/
-    /*padding: 10px 0.5rem;*/
-    /*margin-left: 0px;*/
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(9, 9, 121, 1) 35%,
-      rgba(1, 16, 19, 1) 100%
-    );
-  }
-
-  #resultados-2 {
-    /*gap: 0rem;*/
-    font-weight: bold;
-    font-size: 1.4em;
-    /*width: 1290px;*/
-    color: rgb(255, 255, 255);
-    color: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(219, 219, 219, 1) 35%,
-      rgba(101, 113, 115, 1) 100%
-    );
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(9, 9, 121, 1) 35%,
-      rgba(1, 16, 19, 1) 100%
-    );
-  }
-
-  #emp {
-    /*justify-content: center;*/
-    /*margin-left: 314px;*/
-    border: 0;
-  }
-
-  #paiat {
-    /*padding-top: 170px;*/
-    /*margin-left: -307px;*/
-    border: 0;
-  }
-
-  #money {
-    /*padding-top: 340px;*/
-    /*margin-left: -290px;*/
-    /*margin-bottom: 50px;*/
-    border: 0;
-  }
-
-  #imagem1 {
-    position: relative;
-    width: 370px;
-    margin-left: 63px;
-    right: -100px;
-
-    z-index: 2;
-  }
-
-  #imagem2 {
-    position: relative;
-    width: 370px;
-    margin-left: 63px;
-    right: -100px;
-
-    z-index: 2;
-  }
-
-  #imagem3 {
-    position: relative;
-    width: 370px;
-    margin-left: 63px;
-    right: -100px;
-
-    z-index: 2;
-  }
-
-  #right-border-image {
-    background: #fff;
-    width: 350px;
-    height: 243px;
-    position: relative;
-    top: -543px;
-    left: 213px;
-  }
-
-  #right-border-image2 {
-    background: #fff;
-    width: 350px;
-    height: 243px;
-    position: relative;
-    top: -543px;
-    left: 213px;
-  }
-
-  #left-border-image {
-    background: #fff;
-    width: 350px;
-    height: 243px;
-    position: relative;
-    top: -395px;
-    right: 125px;
-    margin-left: 282px;
-  }
-
-  #solucoesM {
-    order: 0;
-  }
-
-  #solucoesM h1 {
-    font-size: 20px;
-    margin-top: 0px;
-    z-index: 2;
-    width: 550px;
-    margin-left: 155px;
-  }
-
-  #solucoes h1 {
-    font-size: 20px;
-    margin-top: 0px;
-    z-index: 2;
-    width: 550px;
-    margin-left: 155px;
-  }
-
-  #p1 {
-    font-size: 15px;
-    margin-left: 52px;
-  }
-
-  #p2 {
-    font-size: 15px;
-    margin-left: 52px;
-  }
-
-  #p3 {
-    font-size: 15px;
-    margin-left: 52px;
-  }
-
-  #botaoS-1 {
-    width: 150px;
-    margin-left: 38%;
-  }
-
-  #botaoS-2 {
-    width: 150px;
-    margin-left: 32%;
-    display: none;
-  }
-
-  #botaoS-3 {
-    width: 150px;
-    margin-left: 38%;
-  }
-
-  #botaoS-4 {
-    width: 150px;
-    margin-left: 38%;
-    margin-right: 0px;
-  }
 }
 
 /*Celulares */
+
 @media (max-width: 600px) {
   #Logo {
     background: transparent;
@@ -631,164 +243,5 @@
     margin-left: 179px;
     padding-left: 10px;
   }
-
-  #resultados-1 {
-    gap: 1rem;
-    padding: 10px 0.1rem;
-    margin-left: 0px;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(9, 9, 121, 1) 35%,
-      rgba(1, 16, 19, 1) 100%
-    );
-  }
-
-  #resultados-2 {
-    gap: 0rem;
-    font-weight: bold;
-    font-size: 1.2em;
-    width: 100%;
-    color: rgb(255, 255, 255);
-    color: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(219, 219, 219, 1) 35%,
-      rgba(101, 113, 115, 1) 100%
-    );
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(9, 9, 121, 1) 35%,
-      rgba(1, 16, 19, 1) 100%
-    );
-  }
-
-  #emp {
-    /*justify-content: center;*/
-    margin-left: 120px;
-    border: 0;
-  }
-
-  #paiat {
-    padding-top: 170px;
-    margin-left: -394px;
-    border: 0;
-  }
-
-  #money {
-    padding-top: 340px;
-    margin-left: -395px;
-    margin-bottom: 50px;
-    border: 0;
-  }
-
-  #imagem1 {
-    position: relative;
-    width: 364px;
-    margin-left: 93px;
-
-    z-index: 2;
-  }
-
-  #imagem2 {
-    position: relative;
-    width: 362px;
-    margin-left: 67px;
-    z-index: 2;
-  }
-
-  #imagem3 {
-    position: relative;
-    width: 364px;
-    margin-left: 64px;
-
-    z-index: 2;
-  }
-
-  #right-border-image {
-    background: #fff;
-    width: 340px;
-    height: 247px;
-    position: relative;
-    top: -567px;
-    left: 149px;
-  }
-
-  #right-border-image2 {
-    background: #fff;
-    width: 320px;
-    height: 247px;
-    position: relative;
-    top: -570px;
-    left: 118px;
-  }
-
-  #left-border-image {
-    background: #fff;
-    width: 320px;
-    height: 247px;
-    position: relative;
-    top: -395px;
-    right: 64px;
-    margin-left: 118px;
-  }
-
-  #solucoesM {
-    order: 0;
-  }
-
-  #solucoesM h1 {
-    font-size: 20px;
-    margin-top: 0px;
-    z-index: 2;
-    width: 550px;
-    margin-left: 40px;
-  }
-
-  #solucoes h1 {
-    font-size: 20px;
-    margin-top: 0px;
-    z-index: 2;
-    width: 550px;
-    margin-left: 79px;
-  }
-
-  #p1 {
-    font-size: 15px;
-    margin-left: 77px;
-  }
-
-  #p2 {
-    font-size: 15px;
-    margin-left: 37px;
-  }
-
-  #p3 {
-    font-size: 15px;
-    margin-left: 37px;
-  }
-
-  #botaoS-1 {
-    width: 150px;
-    margin-left: 37%;
-  }
-
-  #botaoS-2 {
-    width: 150px;
-    margin-left: 32%;
-    display: none;
-  }
-
-  #botaoS-3 {
-    width: 150px;
-    margin-left: 35%;
-  }
-
-  #botaoS-4 {
-    width: 150px;
-    margin-left: 34%;
-  }
 }
+
